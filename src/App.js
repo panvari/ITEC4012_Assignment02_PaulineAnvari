@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar/>
+        <Navbar item1="Home" item2="TV Shows" item3="Movies" item4="New &amp; Popular" item5="My List"/>
         <Switch>
           <Route exact path='/'>
             <HomePage></HomePage>
