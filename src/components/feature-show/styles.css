@@ -1,8 +1,7 @@
-.container {
+.show-container {
     position: relative;
     padding: 0px;
-    align-content: center;
-    margin: 0px !important;
+    justify-content: center;
 }
 
 .image {
@@ -24,18 +23,17 @@
     image-rendering: crisp-edges;
     image-rendering: -webkit-optimize-contrast;
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 25%;
 }
 
-.container ul {
+.show-container ul {
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 0px;
     list-style-type: none;
-    position: absolute;
     left: 20%;;
 }
 
@@ -43,6 +41,7 @@
     margin: 0rem;
     display: inline-block;
     padding: 10px;
+    align-items: center;
 }
 
 .button {
@@ -68,9 +67,9 @@
         text-shadow: 1px 1px 8px #000000;
     }
 
-    .container ul {
+    .show-container ul {
         position: absolute;
-        top: 70%;
+        top: 75%;
         left: 5%;
     }
 }
