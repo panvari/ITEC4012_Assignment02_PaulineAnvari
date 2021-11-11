@@ -1,0 +1,22 @@
+.thumbnail-container {
+    position: relative;
+    padding: 0px;
+    justify-content: center;
+}
+
+.show-image {
+    width: 250px;
+    border-radius: 4px;
+}
+
+.true {
+    width: 40px;
+    position: absolute;
+        top: 5%;
+        left: 0px;
+}
+
+.false {
+    width: 40px;
+    display: none;
+}

@@ -7,7 +7,7 @@ import info from './information.png';
 
 export const FeatureShow = (props) => {
     return (
-        <div class="container">
+        <div class="show-container">
             <img src={(props.image)} className="image"/>
             <div className="content">
                 <img src={(props.logo)} className="show-logo"/>
