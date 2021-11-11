@@ -52,3 +52,11 @@
 .secondary:hover {
     background-color: rgb(187, 187, 187, .2);;
 }
+
+.primary:disabled {
+    background-color: rgb(128, 128, 128);
+}
+
+.secondary:disabled {
+    background-color: rgb(180, 180, 180);
+}
