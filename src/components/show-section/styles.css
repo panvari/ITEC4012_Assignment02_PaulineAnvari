@@ -1,0 +1,31 @@
+h1 {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+
+h1:hover {
+    color: rgb(255, 255, 255);
+}
+
+.show-thumbnails div {
+    display: flex;
+    padding-bottom: 5px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.section-container {
+    margin-left: 28px;
+    padding-top: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+    .show-thumbnails div {
+        display: inline-block;
+        padding-right: 5px;
+    }
+}

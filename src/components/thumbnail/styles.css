@@ -2,11 +2,15 @@
     position: relative;
     padding: 0px;
     justify-content: center;
+    margin: 0px;
+    cursor: pointer;
 }
 
 .show-image {
-    width: 250px;
+    width: 225px;
     border-radius: 4px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .true {
