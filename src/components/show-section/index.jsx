@@ -2,8 +2,6 @@ import PropTypes from "prop-types";
 import "./styles.css";
 import {Thumbnail} from "../thumbnail";
 
-import thumbnail from './thumbnails/image.jpeg';
-
 export const ShowSection = (props) => {
     return(
         <div className="section-container">

@@ -108,7 +108,3 @@
 .expand-icon:hover, .notif-icon:hover, .search-icon:hover,.navbar a:hover {
     color: rgb(190, 190, 190);
 }
-
-.search-icon:active {
-    display: none;
-}

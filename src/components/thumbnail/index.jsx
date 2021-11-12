@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import "./styles.css";
 
 import logo from './logo.png';
-import thumbnail from './thumbnails/image.jpeg';
 
 export const Thumbnail = (props) => {
     return (
