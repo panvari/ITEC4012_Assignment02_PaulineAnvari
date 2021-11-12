@@ -14,10 +14,10 @@ export const FeatureShow = (props) => {
                 <div className="text">{(props.text)}</div>
                 <ul className="buttons">
                     <li>
-                        <Button className="button" type="primary" icon={play} text="Play"></Button>
+                        <Button className="button" type="primary" icon={play} text="Play" isDisabled={false}></Button>
                     </li>
                     <li>
-                        <Button className="button" type="secondary" icon={info} text="More Info"></Button>
+                        <Button className="button" type="secondary" icon={info} text="More Info" isDisabled={false}></Button>
                     </li>
                 </ul>
             </div>

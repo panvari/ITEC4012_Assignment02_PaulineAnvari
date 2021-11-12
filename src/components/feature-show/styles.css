@@ -2,10 +2,12 @@
     position: relative;
     padding: 0px;
     justify-content: center;
+    width: 100%;
 }
 
 .image {
     width: 100%;
+    height: auto;
 }
 
 .text {
@@ -69,7 +71,7 @@
 
     .show-container ul {
         position: absolute;
-        top: 75%;
+        top: 70%;
         left: 5%;
     }
 }

@@ -67,22 +67,26 @@
 .avatar {
     width: 35px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .expand-icon {
     font-size: 16px;
     color: white;
     padding-left: .5rem;
+    cursor: pointer;
 }
 
 .notif-icon {
     font-size: 20px;
     color: white;
+    cursor: pointer;
 }
 
 .search-icon {
     font-size: 18px;
     color: white;
+    cursor: pointer;
 }
 
 .notif, .search {
