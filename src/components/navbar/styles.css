@@ -28,46 +28,18 @@
     font-weight: bold;
 }
 
-@media only screen and (min-width: 600px) {
-    
-    .navbar ul {
-        flex-direction: row;
-    }
-
-    .navbar li {
-        margin: .74rem;
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .account {
-        position: absolute;
-        right: 10px;
-    }
-
-    .search-icon {
-        position: absolute;
-        right: 140px;
-    }
-
-    .notif-icon {
-        position: absolute;
-        right: 100px;
-    }
-
-    .logo {
-        padding-right: 1rem;
-    }
-}
-
 .logo {
     width: 100px;
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .avatar {
     width: 35px;
     border-radius: 4px;
     cursor: pointer;
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .expand-icon {
@@ -75,18 +47,24 @@
     color: white;
     padding-left: .5rem;
     cursor: pointer;
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .notif-icon {
     font-size: 20px;
     color: white;
     cursor: pointer;
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .search-icon {
     font-size: 18px;
     color: white;
     cursor: pointer;
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .notif, .search {
@@ -107,4 +85,41 @@
 
 .expand-icon:hover, .notif-icon:hover, .search-icon:hover,.navbar a:hover {
     color: rgb(190, 190, 190);
+}
+
+@media only screen and (min-width: 600px) {
+    
+    .navbar ul {
+        flex-direction: row;
+    }
+
+    .navbar li {
+        margin: .74rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .sign-out-link {
+        position: absolute;
+        right: 10px;
+    }
+
+    .account {
+        position: absolute;
+        right: 75px;
+    }
+
+    .notif-icon {
+        position: absolute;
+        right: 160px;
+    }
+
+    .search-icon {
+        position: absolute;
+        right: 200px;
+    }
+
+    .logo {
+        padding-right: 1rem;
+    }
 }

@@ -51,6 +51,11 @@ export const Navbar = (props) => {
                     <img src={avatar} alt="Avatar" className="avatar"/>
                     <GoTriangleDown className="expand-icon"/>
                 </li>
+                <li className="sign-out-link">
+                    <NavLink to="/sign-in">
+                        Sign Out
+                    </NavLink>
+                </li>
             </ul>
         </nav>
     );
