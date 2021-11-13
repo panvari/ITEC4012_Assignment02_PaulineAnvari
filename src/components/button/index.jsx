@@ -13,5 +13,6 @@ export const Button = (props) => {
 Button.propTypes = {
     icon: PropTypes.string,
     text: PropTypes.string.isRequired,
-    isDisabled: PropTypes.string.isRequired
+    isDisabled: PropTypes.string.isRequired,
+    type: PropTypes.string.isRequired
 }

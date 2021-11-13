@@ -1,7 +1,7 @@
 import "./styles.css";
-import {Button} from "../../button";
 import {FeatureShow} from "../../feature-show";
 import {ShowSection} from "../../show-section";
+import {Hyperlink} from "../../hyperlink";
 
 import logo from './logo.png';
 import image from './image.jpeg';
@@ -29,6 +29,7 @@ export const HomePage = () => {
                 isNetflixOriginal05="false" image05={thumbnail} title05="testing000" 
                 isNetflixOriginal06="true" image06={thumbnail} title06="testing000">
             </ShowSection>
+            <Hyperlink type="primary-link" text="this is a hyperlink" link="/"></Hyperlink>
         </div>
     );
 }
