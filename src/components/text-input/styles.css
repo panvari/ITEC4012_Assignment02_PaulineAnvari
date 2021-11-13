@@ -1,0 +1,29 @@
+.text-input {
+    background-color: rgb(232, 240, 254);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+}
+
+.input-label, .input-field {
+    display: block;
+}
+
+.input-label {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 12px;
+}
+
+.input-field {
+    border: none;
+    background-color: rgb(232, 240, 254);
+    padding-top: 5px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+input:focus{
+    outline: none;
+}
