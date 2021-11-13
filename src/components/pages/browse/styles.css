@@ -1,3 +1,7 @@
 .browse-container div {
     display: inline-block;
 }
+
+.footer {
+    width: 100%;
+}

@@ -4,6 +4,10 @@ import {TextInput} from "../text-input";
 import {Button} from "../button";
 import {Hyperlink} from "../hyperlink";
 
+import {
+    NavLink
+} from 'react-router-dom';
+
 export const SignIn = (props) => {
     return (
         <div className="sign-in">
@@ -14,7 +18,9 @@ export const SignIn = (props) => {
             <div className="password" >
                 <TextInput label="Password" type="password"/>
             </div>
-            <Button className="signin-button" type="primary-color" text="Sign In" isDisabled={false}></Button>
+            <NavLink to="/">
+                <Button className="signin-button" type="primary-color" text="Sign In" isDisabled={false} ></Button>
+            </NavLink>
             <div className="check-box">
                 <input type="checkbox" name="remember" value="remember"/>
                 <label for="remember">Remember me</label>
