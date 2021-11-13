@@ -1,7 +1,8 @@
 import "./styles.css";
+import {Navbar} from '../../navbar';
 import {FeatureShow} from "../../feature-show";
 import {ShowSection} from "../../show-section";
-import {TextInput} from "../../text-input";
+import {Footer} from "../../footer";
 
 import logo from './logo.png';
 import image from './image.jpeg';
@@ -10,6 +11,7 @@ import thumbnail from './thumbnails/image.jpeg';
 export const HomePage = () => {
     return(
         <div className="browse-container">
+            <Navbar item1="Home" item2="TV Shows" item3="Movies" item4="New &amp; Popular" item5="My List"/>
             <FeatureShow logo={logo} text="In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits." image={image}></FeatureShow>
             <ShowSection 
                 title="My List" 
@@ -29,7 +31,7 @@ export const HomePage = () => {
                 isNetflixOriginal05="false" image05={thumbnail} title05="testing000" 
                 isNetflixOriginal06="true" image06={thumbnail} title06="testing000">
             </ShowSection>
-            <TextInput label="Email or phone number" type="text"/>
+            <Footer className="footer"></Footer>
         </div>
     );
 }

@@ -1,0 +1,41 @@
+.signin-container {
+    background-size: cover;
+    display: block;
+    height: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.bg {
+    display: none;
+}
+
+.big-logo {
+    width: 200px;
+    padding: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    .bg {
+        display: inline-flex;
+        min-height: 100%;
+        min-width: 100%;
+        opacity: 0.3;
+    }
+
+    .big-logo {
+        padding: 0px;
+        position: absolute;
+        left: 3%;
+        top: 1%;
+    }
+
+    .sign-in {
+        position: absolute;
+        left: 35%;
+        top: 5%;
+    }
+}
