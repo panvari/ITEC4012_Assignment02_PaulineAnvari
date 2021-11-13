@@ -10,6 +10,7 @@ import {
 import {Navbar} from './components/navbar';
 import {HomePage} from './components/pages/browse/index';
 import {SettingsPage} from './components/pages/settings/index';
+import {Footer} from "./components/footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <SettingsPage></SettingsPage>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );
