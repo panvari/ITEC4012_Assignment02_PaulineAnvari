@@ -1,14 +1,14 @@
 .text-input {
     background-color: rgb(232, 240, 254);
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     border-radius: 4px;
 }
 
 .input-label, .input-field {
     display: block;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .input-label {
@@ -19,9 +19,10 @@
 .input-field {
     border: none;
     background-color: rgb(232, 240, 254);
-    padding-top: 5px;
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 16px;
+    margin: 0px;
+    padding-top: 5px;
 }
 
 input:focus{

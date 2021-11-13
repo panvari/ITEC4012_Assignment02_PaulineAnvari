@@ -1,0 +1,112 @@
+.sign-in {
+    margin: 20px;
+    border-radius: 4px;
+    width: 90%;
+}
+
+.sign-in h1 {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+}
+
+.sign-in div {
+    display: block;
+}
+
+.email {
+    padding-bottom: 15px;
+}
+
+.password {
+    padding-bottom: 30px;
+}
+
+.check-box {
+    padding-top: 15px;
+}
+
+.check-box input, .help {
+    display: inline-block;
+}
+
+.help {
+    float: right;
+}
+
+.check-box label {
+    color: grey;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.facebook-div {
+    padding-top: 30px;
+}
+
+.facebook {
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.sign-up {
+    padding-top: 15px;
+}
+
+.question {
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.sign-up-link {
+    padding-left: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.sign-up-link:hover {
+    text-decoration: underline;
+}
+
+.form-details {
+    padding-top: 15px;
+}
+
+.message {
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.learn-more {
+    color: rgb(34, 93, 255);
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 600px) {   
+    .sign-in {
+        margin: 20px;
+        border-radius: 4px;
+        width: 300px;
+        background-color: rgb(0, 0, 0, 0.2);
+        padding: 60px;
+    }
+}
