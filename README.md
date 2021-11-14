@@ -39,7 +39,7 @@ The feature show component was created because, although it is only used once, t
 
 7. Nav Bar
 
-The nav bar component was created due to its complexitity, and the fact that it appears on all pages on the website once signed in. The nav bar has props for each of the menu items, so the text displayed for each menu item can be easily changed in the parent component incase the names of the pages ever change.
+The nav bar component was created due to its complexitity, and the fact that it appears on all pages on the website once signed in. The nav bar has props for each of the menu items, so the text displayed for each menu item can be easily changed in the parent component incase the names of the pages ever change. The nav bar also features icon buttons, a profile image, and a logout button. Note: there is no logout button in the nav bar of www.Netflix.com, however it was included in the clone to easily navigate between the homepage and sign in component.
 
 8. Footer
 
