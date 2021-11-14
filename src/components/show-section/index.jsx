@@ -4,9 +4,11 @@ import {Thumbnail} from "../thumbnail";
 
 export const ShowSection = (props) => {
     return(
+        //return section of six show/movie thumbnails with section title
         <div className="section-container">
-            <h1 className="section-title">{(props.title)}</h1>
+            <h1 className="section-title">{(props.title)}</h1> {/*set section title to title prop*/}
             <div className="show-thumbnails">
+                {/*set each of the six thumbnail to use its corresponding title, image, and netflix original prop*/}
                 <Thumbnail className="thumbnail" image={(props.image01)} isNetflixOriginal={props.isNetflixOriginal01} title={props.title01}></Thumbnail>
                 <Thumbnail className="thumbnail" image={(props.image02)} isNetflixOriginal={props.isNetflixOriginal02} title={props.title02}></Thumbnail>
                 <Thumbnail className="thumbnail" image={(props.image03)} isNetflixOriginal={props.isNetflixOriginal03} title={props.title03}></Thumbnail>
@@ -19,8 +21,9 @@ export const ShowSection = (props) => {
 }
 
 ShowSection.propTypes = {
-    title: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired, //section title prop
 
+    //define is netflix original, image, and title props for each of the six thumbnails in section
     isNetflixOriginal01: PropTypes.bool,
     image01: PropTypes.string.isRequired,
     title01: PropTypes.string.isRequired,

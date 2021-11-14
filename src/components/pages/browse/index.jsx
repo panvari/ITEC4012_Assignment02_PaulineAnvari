@@ -27,10 +27,12 @@ import thumbnail_18 from './thumbnails/thumbnail_18.png';
 
 export const HomePage = () => {
     return(
+        //return page with nav bar, featured show, show sections, and footer
         <div className="browse-container">
-            <Navbar item1="Home" item2="TV Shows" item3="Movies" item4="New &amp; Popular" item5="My List"/>
-            <FeatureShow logo={logo} text="In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits." image={image}></FeatureShow>
-            <ShowSection 
+            <Navbar item1="Home" item2="TV Shows" item3="Movies" item4="New &amp; Popular" item5="My List"/> {/*display navbar component with defined menu item props*/}
+            <FeatureShow logo={logo} text="In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits." image={image}></FeatureShow> {/*display featured show with defined props*/}
+            {/*display "my list" show section component with defined props*/}
+            <ShowSection
                 title="My List" 
                 isNetflixOriginal01="false" image01={thumbnail_01} title01="breaking bad" 
                 isNetflixOriginal02="false" image02={thumbnail_14} title02="my neighbor totoro" 
@@ -39,6 +41,7 @@ export const HomePage = () => {
                 isNetflixOriginal05="false" image05={thumbnail_17} title05="shameless" 
                 isNetflixOriginal06="false" image06={thumbnail_18} title06="avatar: the last air bender">
             </ShowSection>
+            {/*display "popular on netflix" show section component with defined props*/}
             <ShowSection 
                 title="Popular on Netflix" 
                 isNetflixOriginal01="false" image01={thumbnail_04} title01="the office" 
@@ -48,6 +51,7 @@ export const HomePage = () => {
                 isNetflixOriginal05="true" image05={thumbnail_08} title05="peaky blinders" 
                 isNetflixOriginal06="false" image06={thumbnail_09} title06="how i met your mother">
             </ShowSection>
+            {/*display "only on netflix" show section component with defined props*/}
             <ShowSection 
                 title="Only on Netflix" 
                 isNetflixOriginal01="true" image01={thumbnail_02} title01="money heist" 
@@ -57,7 +61,7 @@ export const HomePage = () => {
                 isNetflixOriginal05="true" image05={thumbnail_12} title05="narcos" 
                 isNetflixOriginal06="true" image06={thumbnail_13} title06="good girls">
             </ShowSection>
-            <Footer className="footer"></Footer>
+            <Footer className="footer"></Footer> {/*display footer component*/}
         </div>
     );
 }

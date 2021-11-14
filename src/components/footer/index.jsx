@@ -4,8 +4,9 @@ import {Hyperlink} from "../hyperlink";
 
 export const Footer = () => {
     return (
+        //return footer with links to various pages
         <div className="footer">
-            <ul className="footer-list">
+            <ul className="footer-list"> {/*list of all secondary links*/}
                 <li>
                     <Hyperlink type="secondary-link" text="Audio and Subtitles" link="/"></Hyperlink>
                 </li>
@@ -44,10 +45,10 @@ export const Footer = () => {
                 </li>
             </ul>
             <div className="service-code">
-                <Hyperlink type="primary-link" text="Service Code" link="/"></Hyperlink>
+                <Hyperlink type="primary-link" text="Service Code" link="/"></Hyperlink> {/*define primary hyperlink */}
             </div>
             <div className="copyright">
-                <a className="copyright-text">© 1997-2021 Netflix, Inc.</a>
+                <a className="copyright-text">© 1997-2021 Netflix, Inc.</a> {/*text for copyright details*/}
             </div>
         </div>
     );
