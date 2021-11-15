@@ -10,6 +10,8 @@ The website selected for this assignment was www.Netflix.com. Two pages from thi
   - Route: '/'
 - The sign in page
   - Route: '/sign-in'
+ 
+ The sign in page was selected as the secondary page to clone due to its varying components from the homepage, including the form it features and it's various input elements. Because of the unique components on this page, it was selected to allow for the creation of a variety of components.
 
 ## List of Components
 Several components were created in order to create an accurate clone of the website.
